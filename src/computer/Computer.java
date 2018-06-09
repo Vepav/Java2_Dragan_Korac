@@ -5,7 +5,18 @@ public class Computer {
     private double processTact;
     private double memory;
     private int hardDrive;
+    
+    public Computer() {
+        
+    }
 
+    public Computer(double processTact, double memory, int hardDrive) {
+        this.processTact = processTact;
+        this.memory = memory;
+        this.hardDrive = hardDrive;
+    }
+    
+    
     public double getProcessTact() {
         return processTact;
     }
