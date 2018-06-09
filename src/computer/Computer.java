@@ -29,7 +29,12 @@ public class Computer {
     public void setHardDrive(int hardDrive) {
         this.hardDrive = hardDrive;
     }
-    
+    public void info() {
+        System.out.println("Proces Tact: " + getProcessTact());
+        System.out.println("Memory: " + getMemory());
+        System.out.println("Hard drive: " + getHardDrive());
+      
+    }
     
     
 }
