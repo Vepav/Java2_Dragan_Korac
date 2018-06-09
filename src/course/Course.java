@@ -21,6 +21,16 @@ public class Course {
     public void setNumberOfClasses(int numberOfClasses) {
         this.numberOfClasses = numberOfClasses;
     }
+
+    public Course() {
+        this.name = "no name";
+        this.numberOfClasses = 0;
+    }
+
+    public Course(String name, int numberOfClasses) {
+        this.name = name;
+        this.numberOfClasses = numberOfClasses;
+    }
     
     
     
